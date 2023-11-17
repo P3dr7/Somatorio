@@ -1,4 +1,4 @@
-function somatorioDivisiveisPor3ou5(numero) {
+function somatorioDivisiveis(numero) {
 	let somatorio = 0;
 
 	for (let i = 1; i < numero; i++) {
@@ -12,5 +12,5 @@ function somatorioDivisiveisPor3ou5(numero) {
 }
 
 // Exemplo de uso
-let resultado = somatorioDivisiveisPor3ou5(10);
+let resultado = somatorioDivisiveis(10);
 console.log("Resultado Somatorio:", resultado);
